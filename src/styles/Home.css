@@ -1,0 +1,17 @@
+.Home{
+    padding: 15vh 0 0 0;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+.Home::-webkit-scrollbar {
+    display: none;
+  }
+
+.home-components{
+
+    display: grid;
+    grid-template-columns: 23% 70%;
+    gap: 4%;
+}
+

@@ -1,0 +1,66 @@
+.newsletter-container{
+
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(234, 232, 230, 0.626);
+}
+
+.newsletter-container h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.newsletter-container h4{
+
+    font-size: 1.3rem;
+}
+
+.newsletter-container p{
+    font-size: 0.8rem;
+
+}
+
+.newsletter-form{
+    margin: 4vh 0;
+    width: 50%;
+    margin: 4vh auto;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(113, 111, 108);
+}
+
+.newsletter-form input{
+    border: none;   
+    width: 75%;
+    padding: 3vh 0;
+    height: 10vh;
+    background-color: rgba(234, 232, 230, 0);
+}
+
+.newsletter-form input:focus{
+    outline: none;
+}
+
+.newsletter-form input::placeholder{
+    
+}
+
+.newsletter-form button{
+    width: 25%;
+    height: 10vh;
+    border-radius: 0.5rem;
+    border: none;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.1rem;
+    background: rgb(255,0,164);
+    background: linear-gradient(126deg, rgb(255, 0, 60) 0%, rgba(255,103,22,1) 53%, rgba(255,134,65,1) 100%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position .5s;
+}
+.newsletter-form button:hover {
+    background-position: 0 0;
+  }
